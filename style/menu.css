@@ -1,0 +1,233 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.hero {
+  margin: 0px;
+  height: 145vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.navbarV {
+  height: 100%;
+  width: 0%;
+  overflow: hidden;
+  background-color: #060708c9;
+  transition: 1s;
+}
+
+.navbarV-transition {
+  width: 20%;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  background-color: #eeeeee;
+}
+
+.topbar {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tbright,
+.tbleft {
+  width: 250px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.threedot {
+  background-color: white;
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.threedot div {
+  background-color: black;
+  padding: 2px;
+  border-radius: 100%;
+}
+
+.threedot div:nth-child(2) {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.tbleft h2 {
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+.tbright {
+  width: 500px;
+}
+
+.user {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 100%;
+  transition: 0.15s;
+}
+
+.user:hover {
+  margin-bottom: -5px;
+  margin-right: -4px;
+  box-shadow: black -5px -4px 5px 1px;
+}
+
+.user:active {
+  box-shadow: transparent 0px 0px 0px 0px;
+  margin: 0px;
+}
+
+.searchinput {
+  background-color: transparent;
+  border: solid gray 1px;
+  border-radius: 15px;
+  height: 30px;
+  width: 300px;
+  padding-left: 10px;
+}
+
+.searchsubmit {
+  border: none;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+.userinfo {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.pp {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  border-bottom: solid whitesmoke 1px;
+  padding-bottom: 20px;
+}
+
+.profile p {
+  margin: 0px;
+  margin-left: 15px;
+}
+
+.navbarV-content {
+  height: auto;
+}
+
+.dashboard-part {
+  margin-top: 30px;
+  height: 50px;
+  width: 100%;
+  background-color: #e83975;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+.dashboard-part h4 {
+  margin: 0px;
+}
+
+.container-crud {
+  height: 400px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.createOrUpdate {
+  width: 800px;
+  height: 300px;
+}
+
+.navbar-part {
+  height: 50px;
+  background-color: #353b49;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px 0px 20px;
+}
+
+.inputpart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+}
+
+.createnupdate {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 230px;
+}
+
+.btnpart {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.btnpart button {
+  margin: 5px;
+}
+
+.readcrud {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.readcrud table {
+  width: 900px;
+}
+
+.table-container {
+  overflow: auto;
+  height: 400px;
+}
